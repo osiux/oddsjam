@@ -1,11 +1,11 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Container } from '@mantine/core';
+
+import { Arbitrages } from '@/components/Arbitrages/Arbitrages';
 
 export function HomePage() {
   return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
+    <Container fluid>
+      <Arbitrages />
+    </Container>
   );
 }
